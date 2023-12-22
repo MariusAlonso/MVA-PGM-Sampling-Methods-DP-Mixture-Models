@@ -1,1 +1,21 @@
 # MVA-MC-Sampling-Methods-for-DP-Mixture-Models
+
+
+## Structure
+
+- PDF Report : Sampling Methods for Dirichlet Process Mixture Models
+- mc_dp_synthetic_dataset.ipynb : Main notebook with implementation algorithms 1,2,4,5,6,7,8 ; DP sampler and experimentation on synthetic data
+- mc_dp_old_faithful.ipynb : Experimentation on the Old Faithful Dataset with Algorithm 5 and $\alpha$ fine tuning.
+- faithful.csv : Old Faithful Dataset
+- README.md : This present document
+
+
+## Contribution Statement
+
+All 3 authors, Marius Alonso, Paul Bonin and Théo Communal have equally contributed to the implementation of the algorithms and execution of the experiments, as well as the meticulous preparation and writing of this report, thereby sharing equal for the work presented.
+
+
+## Abstract    
+
+   In this paper, we review and summarize algorithms from [Neal, 2000]. Dirichlet Process Mixture Models is a probabilistic unsupervised learning technique that assumes that the instances were generated from a mixture of several distributions with unknown parameters. As such, it can be understood as a more general case of Gaussian Mixture Models, as it allows to use different families of distribution. Furthermore, the number of distributions does not need to be specified beforehand. Sparsity of the clustering is enforced by the Dirichet Process "rich get richer" property given by the $\alpha$ parameter. We implemented these algorithms in Python and tested them on synthetic and real data (Old Faithful Dataset). 
+
