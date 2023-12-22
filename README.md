@@ -3,7 +3,7 @@
 
 ## Structure
 
-- PDF Report : Sampling Methods for Dirichlet Process Mixture Models
+- PDF Report : Sampling Methods for Dirichlet Process Mixture Models. **This report is 6 pages, excluding Figures and References**
 - mc_dp_synthetic_dataset.ipynb : Main notebook with implementation algorithms 1,2,4,5,6,7,8 ; DP sampler and experimentation on synthetic data
 - mc_dp_old_faithful.ipynb : Experimentation on the Old Faithful Dataset with Algorithm 5 and $\alpha$ fine tuning.
 - faithful.csv : Old Faithful Dataset
