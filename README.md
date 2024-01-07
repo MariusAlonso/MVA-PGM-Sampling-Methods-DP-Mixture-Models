@@ -1,4 +1,4 @@
-# MVA-MC-Sampling-Methods-for-DP-Mixture-Models
+# MVA-PGM-Project
 
 This project repository of the course **Probabilistic Graphical Models** given by *P. Latouche* and *P. A. Mattei* is based on the following article:
 
