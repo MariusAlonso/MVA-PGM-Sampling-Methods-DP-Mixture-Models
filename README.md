@@ -1,11 +1,15 @@
 # MVA-MC-Sampling-Methods-for-DP-Mixture-Models
 
+This project repository of the course **Probabilistic Graphical Models** given by *P. Latouche* and *P. A. Mattei* is based on the following article:
+
+Neal, R. M. (2000). Markov chain sampling methods for Dirichlet process mixture models. Journal of computational and graphical statistics, 9(2), 249-265.
+
 
 ## Structure
 
 - [PDF Report](PGM.pdf) : Sampling Methods for Dirichlet Process Mixture Models. **This report is 6 pages, excluding Figures and References**
-- mc_dp_synthetic_dataset.ipynb : Main notebook with implementation algorithms 1,2,4,5,6,7,8 ; DP sampler and experimentation on synthetic data
-- mc_dp_old_faithful.ipynb : Experimentation on the Old Faithful Dataset with Algorithm 5 and $\alpha$ fine tuning.
+- [mc_dp_synthetic_dataset.ipynb](mc_dp_synthetic_dataset.ipynb) : Main notebook with implementation algorithms 1,2,4,5,6,7,8 ; DP sampler and experimentation on synthetic data
+- [mc_dp_old_faithful.ipynb](mc_dp_old_faithful.ipynb) : Experimentation on the Old Faithful Dataset with Algorithm 5 and $\alpha$ fine tuning.
 - faithful.csv : Old Faithful Dataset
 - README.md : This present document
 
