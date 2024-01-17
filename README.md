@@ -22,4 +22,3 @@ All 3 authors, Marius Alonso, Paul Bonin and Théo Communal have equally contrib
 ## Abstract    
 
    In this paper, we review and summarize algorithms from [Neal, 2000]. Dirichlet Process Mixture Models is a probabilistic unsupervised learning technique that assumes that the instances were generated from a mixture of several distributions with unknown parameters. As such, it can be understood as a more general case of Gaussian Mixture Models, as it allows to use different families of distribution. Furthermore, the number of distributions does not need to be specified beforehand. Sparsity of the clustering is enforced by the Dirichet Process "rich get richer" property given by the $\alpha$ parameter. We implemented these algorithms in Python and tested them on synthetic and real data (Old Faithful Dataset). 
-
